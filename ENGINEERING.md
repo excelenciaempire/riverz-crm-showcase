@@ -1,31 +1,19 @@
-# Engineering notes
+# Riverz CRM engineering
 
-## Foundation and extensions
+## Extending wacrm
 
-Riverz CRM uses the open-source [wacrm](https://github.com/ArnasDon/wacrm) foundation. This case study focuses on the commerce-specific work added around that foundation: assistant behavior, merchant knowledge, channel and store integrations, onboarding, and operational recovery.
+The [wacrm](https://github.com/ArnasDon/wacrm) foundation supplies the core CRM. My extensions focus on commerce assistance, merchant knowledge, onboarding, integrations and recovery.
 
-## Merchant context is part of correctness
+## Account-specific facts
 
-Each merchant has its own catalog, current offer, shipping coverage, payment methods, and support policies. Reusing conversational behavior should not copy one merchant's facts into another merchant's account.
+Shared conversation behavior handles product selection, unanswered questions, order intent, escalation and contact restrictions. Catalogs, offers, coverage and payment conditions remain specific to each merchant.
 
-The shared assistant behavior covers intent, product selection, unanswered questions, explicit closing, and escalation. Business facts remain account-specific.
+## Conversation-level checks
 
-## Validate complete conversations
+The private project includes scenarios for images, quantity changes, compatibility, existing orders, complaints and human handoff. Testing a single fluent response cannot establish that the complete buying or support flow works.
 
-A response can look correct in isolation while the whole interaction fails. Useful scenarios include a buyer asking for more images, changing quantity, asking about compatibility, reporting an existing order, requesting a human, or asking not to be contacted.
+## Uncertain external actions
 
-The private project includes regression coverage and a preview workflow for these behaviors. Test scenarios should not create real orders or send unsolicited messages to customers.
+A timeout may leave a send outcome unknown. Stable send identities and reconciliation help avoid duplicates. Connection updates also need to preserve newer state when requests overlap. A provider-specific connection needs its own verification.
 
-## External actions and uncertain outcomes
-
-An external timeout can leave the result unknown. A message send therefore needs a stable identity and a recovery path rather than an unconditional retry. Human intervention and contact restrictions must remain part of the decision to send.
-
-Integration status has a similar problem: clearing an error message does not establish a healthy connection. Successful reads, persisted state, and failure recovery need to agree. Concurrent token or connection updates should not overwrite each other with stale snapshots.
-
-## Evidence boundaries
-
-The case study describes implemented behavior and documented engineering constraints. It does not publish customer conversations, conversion claims, or blanket availability guarantees for external services.
-
-## Discuss in an interview
-
-I can walk through merchant isolation, conversation-level testing, recovery after an uncertain send, and extending an existing open-source foundation without confusing upstream work with my own contributions.
+[Overview](README.md) · [Related adaptations](VARIANTS.md)
