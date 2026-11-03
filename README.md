@@ -43,3 +43,7 @@ See the [engineering notes](ENGINEERING.md) for the approach to conversation val
 This is a public case study. Application source, account configuration, conversations, and customer data remain private. A capability described here does not imply that every external provider is currently connected or certified end to end.
 
 For professional inquiries, [contact me through the Riverz showcase](https://github.com/excelenciaempire/riverz-showcase/issues/new?title=Professional%20inquiry).
+
+## Related adaptations
+
+[Riverz Dealers and Riverz Ventas](VARIANTS.md) adapt the same CRM family to different business contexts. The case distinguishes the shared wacrm foundation, Riverz extensions and business-specific configuration.
