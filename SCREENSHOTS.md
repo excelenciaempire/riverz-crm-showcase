@@ -1,11 +1,7 @@
-# Interface capture provenance
+# Original interface screenshot
 
-The source is the actual authenticated Riverz CRM dashboard on 2026-11-03. It uses the application’s existing light theme and English interface. The sidebar remains dark as part of that native light theme.
+This PNG was captured directly from the running, authenticated Riverz CRM dashboard on 2026-11-03 using Chrome Page.captureScreenshot. The application’s native light theme and English interface were already selected. The sidebar was collapsed in the browser, so account details are outside the visible view.
 
-The account is a platform review workspace. Its activity counters were retained as rendered; they are not revenue, adoption, customer conversion or production-performance evidence. The account email was hidden before rendering the image. No conversations, customer identities, credentials or integration tokens are included.
-
-## Capture method
-
-The browser’s native snapshot tool timed out. The image was therefore rendered from a frozen copy of the loaded interface DOM and its styles, with fonts retained. Application scripts, hidden inputs and live connections were excluded. This is a static interface view, not a runnable app, an end-to-end test result or a newly verified product release.
+The original screenshot pixels are unchanged. Visible counters belong to the platform review workspace and are not evidence of customer revenue, adoption or conversion. No customer conversations, contact information or credentials appear in the image.
 
 [Back to the case study](README.md)

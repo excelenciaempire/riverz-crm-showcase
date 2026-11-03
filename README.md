@@ -6,9 +6,9 @@
 
 Riverz CRM brings merchant context into customer conversations: products, prices, available media, delivery conditions, and the point where a human should take over.
 
-![Riverz CRM internal dashboard in native light mode and English](assets/dashboard-light-en.png)
+![Actual Riverz CRM dashboard in its native light theme and English interface](assets/dashboard.png)
 
-*Internal dashboard in the application’s light theme and English language, captured from a platform review workspace. Account email hidden; displayed activity is not a customer-results claim. [Capture details](SCREENSHOTS.md).*
+*Direct screenshot of the running CRM dashboard, November 3, 2026. Native light theme and English interface; activity belongs to a platform review workspace. [Capture details](SCREENSHOTS.md).*
 
 ## The problem
 
