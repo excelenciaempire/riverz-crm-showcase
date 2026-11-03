@@ -14,6 +14,10 @@ Riverz CRM brings merchant context into customer conversations: products, prices
 
 A useful commerce assistant needs more than fluent replies. It must preserve the selected product, use that merchant's actual offer, handle unknown information, and respect human intervention. Integration failures must also remain visible to the operator.
 
+## How I build with AI
+
+**All of my development work presented here was done with AI assistance.** I use AI throughout implementation, debugging and validation. I understand programming and software engineering fundamentals, and use them to define requirements, guide the tools, review changes and check how the software actually behaves. I take responsibility for technical decisions and results.
+
 ## My work
 
 I develop the commerce-specific product behavior and extensions: merchant-scoped assistant guidance, product knowledge and media handling, sales and support workflows, bilingual experiences, and integration recovery.
