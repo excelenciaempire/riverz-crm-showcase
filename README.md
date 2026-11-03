@@ -10,6 +10,22 @@ Riverz CRM connects customer conversations with the merchant's products, offers,
 
 *Original light-mode, English dashboard capture, November 3, 2026, from a platform review workspace. [Capture details](SCREENSHOTS.md).*
 
+## Inside the application
+
+### Channel and commerce connections
+
+![Channel and commerce connections](assets/crm-integrations.png)
+
+Live application, November 3, 2026; native English/light interface. Integration catalog and the platform review workspace’s test-number connection. Visible connections are workspace-specific.
+
+### Commerce automation templates
+
+![Commerce automation templates](assets/crm-automations.png)
+
+Live application, November 3, 2026; native English/light interface. Template catalog for cart recovery, payment reminders, order confirmation, tracking and reorders. No automation was created or sent.
+
+[Capture provenance](SCREENSHOTS.md)
+
 ## My contribution
 
 I extend the open-source **wacrm** foundation by Arnas Donauskas with merchant-specific assistant behavior, product knowledge and media handling, onboarding, integration recovery and human handoff. The original inbox, contacts, pipelines, campaigns and automation foundation belong to wacrm.
