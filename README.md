@@ -6,9 +6,9 @@
 
 Riverz CRM brings merchant context into customer conversations: products, prices, available media, delivery conditions, and the point where a human should take over.
 
-![Riverz CRM onboarding and commerce integrations](assets/onboarding.png)
+![Riverz CRM internal dashboard in native light mode and English](assets/dashboard-light-en.png)
 
-*Onboarding screen from a development QA account, October 2026. It shows the integration setup experience, not active connections or customer results.*
+*Internal dashboard in the application’s light theme and English language, captured from a platform review workspace. Account email hidden; displayed activity is not a customer-results claim. [Capture details](SCREENSHOTS.md).*
 
 ## The problem
 
