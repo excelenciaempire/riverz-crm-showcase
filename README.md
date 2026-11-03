@@ -2,7 +2,7 @@
 
 **WhatsApp commerce workflows with merchant-specific AI assistance.**
 
-[Engineering](ENGINEERING.md) · [CRM adaptations](VARIANTS.md) · [wacrm foundation](https://github.com/ArnasDon/wacrm) · [Contact](https://github.com/excelenciaempire/riverz-showcase/issues/new?title=Professional%20inquiry)
+[Product map](CAPABILITIES.md) · [Engineering](ENGINEERING.md) · [CRM adaptations](VARIANTS.md) · [wacrm foundation](https://github.com/ArnasDon/wacrm) · [Contact](https://github.com/excelenciaempire/riverz-showcase/issues/new?title=Professional%20inquiry)
 
 Riverz CRM connects customer conversations with the merchant's products, offers, images, delivery conditions and support policies.
 
