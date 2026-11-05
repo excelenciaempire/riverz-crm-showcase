@@ -6,23 +6,28 @@
 
 Riverz CRM connects customer conversations with the merchant's products, offers, images, delivery conditions and support policies.
 
-![Riverz CRM dashboard](assets/dashboard.png)
+## Commerce workflows
 
-*Original light-mode, English dashboard capture, November 3, 2026, from a platform review workspace. [Capture details](SCREENSHOTS.md).*
+![Commerce automation templates: cart recovery, payments, orders and tracking](assets/crm-automations.png)
 
-## Inside the application
+Actual application capture, November 3, 2026; native English/light review workspace. The catalog shows available templates; no automation was created or sent for the capture.
+
+<details>
+<summary>Connections and review-workspace dashboard</summary>
 
 ### Channel and commerce connections
 
 ![Channel and commerce connections](assets/crm-integrations.png)
 
-Live application, November 3, 2026; native English/light interface. Integration catalog and the platform review workspace’s test-number connection. Visible connections are workspace-specific.
+Actual application capture, November 3, 2026; native English/light interface with a test-number connection. Visible connections are specific to that review workspace.
 
-### Commerce automation templates
+### Dashboard
 
-![Commerce automation templates](assets/crm-automations.png)
+![Review-workspace onboarding and dashboard](assets/dashboard.png)
 
-Live application, November 3, 2026; native English/light interface. Template catalog for cart recovery, payment reminders, order confirmation, tracking and reorders. No automation was created or sent.
+Actual application capture, November 3, 2026; English/light interface. These are review-workspace observations, not a merchant performance claim.
+
+</details>
 
 [Capture provenance](SCREENSHOTS.md)
 
