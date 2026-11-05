@@ -2,34 +2,37 @@
 
 **WhatsApp commerce workflows with merchant-specific AI assistance.**
 
-[Product map](CAPABILITIES.md) · [Engineering](ENGINEERING.md) · [CRM adaptations](VARIANTS.md) · [wacrm foundation](https://github.com/ArnasDon/wacrm) · [Contact](https://github.com/excelenciaempire/riverz-showcase/issues/new?title=Professional%20inquiry)
+[Feature tour](FEATURES.md) · [Product map](CAPABILITIES.md) · [Engineering](ENGINEERING.md) · [CRM adaptations](VARIANTS.md) · [wacrm foundation](https://github.com/ArnasDon/wacrm) · [Contact](https://github.com/excelenciaempire/riverz-showcase/issues/new?title=Professional%20inquiry)
 
 Riverz CRM connects customer conversations with the merchant's products, offers, images, delivery conditions and support policies.
 
 ## Commerce workflows
 
-![Commerce automation templates: cart recovery, payments, orders and tracking](assets/crm-automations.png)
+### Commerce automations
 
-Actual application capture, November 3, 2026; native English/light review workspace. The catalog shows available templates; no automation was created or sent for the capture.
+Browse cart-recovery, payment-reminder, order-confirmation, tracking and reorder templates.
 
-<details>
-<summary>Connections and review-workspace dashboard</summary>
+![Commerce automations](assets/crm-automations.png)
 
-### Channel and commerce connections
+*November 3, 2026 review workspace; English/light. No automation was created or sent for the capture.*
 
-![Channel and commerce connections](assets/crm-integrations.png)
+### Connected product catalog
 
-Actual application capture, November 3, 2026; native English/light interface with a test-number connection. Visible connections are specific to that review workspace.
+Review product cards from the connected Shopify development store.
 
-### Dashboard
+![Connected product catalog](assets/crm-products-review-2026-11-03.png)
 
-![Review-workspace onboarding and dashboard](assets/dashboard.png)
+*November 3, 2026 platform-review workspace; English/light with development-store sample products.*
 
-Actual application capture, November 3, 2026; English/light interface. These are review-workspace observations, not a merchant performance claim.
+### Shared inbox and contact context
 
-</details>
+Read a conversation alongside the contact profile, tags and notes.
 
-[Capture provenance](SCREENSHOTS.md)
+![Shared inbox and contact context](assets/crm-inbox-review-2026-11-02.png)
+
+*November 2, 2026 app-review test; English/light. The messages explicitly identify a manual support test with the account owner.*
+
+[See the six-view tour: products, inbox, web chat, automations, integrations and setup](FEATURES.md).
 
 ## My contribution
 
